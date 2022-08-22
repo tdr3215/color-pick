@@ -6,6 +6,8 @@ import ColorPicker from './components/colorPicker/index.js';
 const title = "Color Picker";
 
 class App extends Component {
+
+  
   render() {
     return (
       <div>

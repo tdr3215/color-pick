@@ -3,9 +3,18 @@ import "./index.css";
 const classNames = require('classnames');
 
 export default class ColorPicker extends Component {
+  constructor(props){
+   super(props)
+
+   this.state = {colorPickerOptions:["red","black","green"],initialSelectedColor:"black"}
+  }
+
+  
 
   render() {
+    
     let selectedColor;
+
     return (
       <div>
         <div className="layout-row justify-content-center">
